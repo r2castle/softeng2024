@@ -1,11 +1,11 @@
+def ftoc(): # 단위변환 화씨 -> 섭씨 함수
+    temp_c = (temp_f - 32 ) * 5/9
+
 def main(): # 단위변환 화씨 -> 섭씨
     temp_f = 75
     temp_c = (temp_f - 32 ) * 5/9
 
     print(f"{temp_f}F => {temp_c:.1f}C")
-
-def ftoc(): # 단위변환 화씨 -> 섭씨 함수
-    temp_c = (temp_f - 32 ) * 5/9
 
 if __name__ == "__main__":
     main()
