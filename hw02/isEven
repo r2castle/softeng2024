@@ -8,6 +8,6 @@ def main():
     n = int(input("숫자를 입력 "))
 
     isEven(n)
-\
+
 if __name__ == "__main__":
     main()
