@@ -1,4 +1,4 @@
-def isPrime(n: int) -> bool: // 소수 판별 함수
+def isPrime(n: int) -> bool:  # 소수 판별 함수
     if n<2:
         return False
     
