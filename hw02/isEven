@@ -1,4 +1,4 @@
-def isEven(n):
+def isEven(n): # 홀짝 구분하기
     if n % 2 == 0:
         print(f"{n} 짝수")
     else:
