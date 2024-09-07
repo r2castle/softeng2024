@@ -1,1 +1,21 @@
+def isPrime(n: int) -> bool: // 소수 판별 함수
+    if n<2:
+        return False
+    
+    for i in range(2, n):
+        if n%i == 0:
+            return False
+    
+    return True
 
+def main():
+    n = int(input("숫자 입력: "))
+
+    if isPrime(n):
+        print(f"{n} 소수")
+    else:
+        print(f"{n} 소수x")
+
+
+if __name__ == "__main__":
+    main()
